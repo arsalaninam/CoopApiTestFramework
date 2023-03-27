@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Classes">
+    <test name="Execute All Test Cases">
+        <classes>
+            <class name="org.coop.testcase.barnEndpoint.BarnUnlockTestcase"/>
+            <class name="org.coop.testcase.collectEggsEndpoint.CollectEggsTestcase"/>
+            <class name="org.coop.testcase.countEggsEndpoint.CountEggsTestcase"/>
+            <class name="org.coop.testcase.feedChickenEndpoint.FeedChickenTestcase"/>
+            <class name="org.coop.testcase.toiletSeatDownEndpoint.ToiletSeatDownTestcase"/>
+        </classes>
+    </test>
+</suite>
