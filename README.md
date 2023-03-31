@@ -14,8 +14,14 @@ This Framework is designed for Backend Testing of Webservices using Java with Re
 
 * [Java 1.8](https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html) - Java Dev Kit
 * [Maven](https://maven.apache.org/download.cgi) - Dependency Manager
-* [IntelliJ IDEA](https://www.jetbrains.com/idea/download) - IDE
 * [Docker](https://www.docker.com/products/docker-desktop/) - Containerize application
+
+## Choose your favorite IDE
+
+Open it on your favorite IDE, my personal suggestion is Visual Code studio Or IntelliJ. You can download it from the following URLs respectively.
+
+https://code.visualstudio.com/download
+https://www.jetbrains.com/idea/download
 
 ## Project Structure
 
@@ -45,7 +51,7 @@ Following instructions will help you running the project. First of all, checkout
 
 ### Installation
 
-Open the project in IntelliJ. Run the following command in Terminal and build the project. It will automatically download all the required dependencies.
+Open the project in any IDE. Run the following command in Terminal and build the project. It will automatically download all the required dependencies.
 
 ```sh
 $ mvn clean install
@@ -72,7 +78,7 @@ $ mvn clean test -DsuiteXmlFile=testng.xml
 You can find the Surefire HTML reports in the following directory of the Project.
 
 ```sh
-\target\surefire-reports\index.html
+/target/surefire-reports/index.html
 ```
 
 Under the surefire-reports directory, open ‘index.html’ file to view reports.
